@@ -24,11 +24,11 @@ lista4 = [time7,time8]
 result4 = random.choice(lista4)
 print(f"O vencedor do primeiro duelo foi {result4}")
 print("Vamos pra semi-final")
-listasemi = [result1,result2]
-resultsemi1 = random.choice(listasemi)
+listasemi1 = [result1,result2]
+resultsemi1 = random.choice(listasemi1)
 print(f"O vencedor do primeiro duelo da semi-final foi {resultsemi1}")
-listasemi = [result3,result4]
-resultsemi2 = random.choice(listasemi)
+listasemi2 = [result3,result4]
+resultsemi2 = random.choice(listasemi2)
 print(f"O vencedor do segundo duelo da semi-final foi {resultsemi2}")
 print("Vamos pras Finais")
 final = [resultsemi1,resultsemi2]
