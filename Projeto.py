@@ -22,15 +22,18 @@ time7 = input("Digite o nome do sétimo competidor: \n")
 time8 = input("Digite o nome do oitavo competidor: \n")
 lista4 = [time7,time8]
 result4 = random.choice(lista4)
-print(f"O vencedor do primeiro duelo foi {result4}")
+print(f"O vencedor desse duelo foi {result4}")
 print("Vamos pra semi-final")
 listasemi1 = [result1,result2]
 resultsemi1 = random.choice(listasemi1)
+print(f"O primeiro duelo da semi-final será entre {result1} e {result2}") 
 print(f"O vencedor do primeiro duelo da semi-final foi {resultsemi1}")
 listasemi2 = [result3,result4]
 resultsemi2 = random.choice(listasemi2)
+print(f"O segundo duelo da semi-final será entre {result3} e {result4}") 
 print(f"O vencedor do segundo duelo da semi-final foi {resultsemi2}")
 print("Vamos pras Finais")
 final = [resultsemi1,resultsemi2]
 campeão = random.choice(final)
+print(f"A final será entre {resultsemi1} e {resultsemi2}") 
 print(f"O campeão do parazão foi {campeão}")
