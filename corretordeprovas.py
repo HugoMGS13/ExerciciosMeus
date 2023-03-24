@@ -24,4 +24,4 @@ if (len(gab) == quest):
             if a == i:
                 print("O aluno acertou 100","%", "das questões.")
             else:
-                print("o aluno errou" ,dist(i,len(i),a,len(a)), "questões")
+                print("o aluno errou" ,dist(i,len(i),a,len(a)), "questões e acertou" , quest-dist(i,len(i),a,len(a)))
